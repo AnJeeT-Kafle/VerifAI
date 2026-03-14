@@ -224,7 +224,7 @@ The next phase focuses on deploying a self-hosted Hugging Face transformer model
 ## Author
 
 **Anjit Kafle**
-- GitHub: [@CoLaXishere](https://github.com/AnJeet-Kafle)
+- GitHub: [@CoLaXishere](https://github.com/AnJeeT-Kafle)
 - Email: anjitkafle@gmail.com
 - University of Louisiana Monroe — CS, Expected Dec. 2028
 

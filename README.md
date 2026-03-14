@@ -211,13 +211,10 @@ Get a free API key at [aiornot.com](https://aiornot.com)
 
 ## Research Motivation
 
-This project was built to explore a real and growing research problem — as AI image generators (Midjourney, Stable Diffusion, DALL-E) produce increasingly photorealistic images, reliable detection is critical for:
+The rapid advancement of generative artificial intelligence has made it increasingly easy to create highly realistic images using tools such as DALL·E, Midjourney, and Stable Diffusion. While these technologies provide powerful creative opportunities, they also raise concerns about misinformation, deepfakes, and the difficulty of distinguishing between real and AI-generated images on the internet.
 
-- Combating misinformation in news and social media
-- Protecting intellectual property of human artists
-- Maintaining trust in visual media online
-
-The next phase focuses on deploying a self-hosted Hugging Face transformer model on AWS Lambda to move beyond third-party APIs, enabling full control over the inference pipeline and unlimited detections at no cost.
+This project aims to develop a Chrome extension that helps users identify AI-generated images directly while browsing the web. By working on this project, I seek to deepen my understanding of web development, browser extensions, and AI-based image analysis techniques. The project also provides an opportunity to apply theoretical knowledge from computer science courses to solve a real-world problem. 
+Through this research, I hope to contribute to improving digital transparency and help users become more aware of the presence of AI-generated content online while enhancing my technical and problem-solving skills as a student developer
 
 ---
 

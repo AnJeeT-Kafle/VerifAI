@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VerifAI</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="header">
+      <div class="logo-wrap">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+            <path d="M11 8v6M8 11h6"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Verif<span class="accent">AI</span></span>
+        </div>
+      </div>
+      <p class="tagline">AI Image Detector</p>
+    </header>
+
+    <div class="divider"></div>
+
+    <section class="body-section">
+      <p class="description">
+        Toggle detection mode to reveal a check button on every image.
+        Click any image button to instantly verify it.
+      </p>
+
+      <!-- Toggle Row -->
+      <div class="toggle-row">
+        <div class="toggle-label-wrap">
+          <span class="toggle-title">Scan This Page</span>
+          <span class="toggle-subtitle" id="toggleSubtitle">Detection is off</span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="detectToggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+    </section>
+
+    <!-- Status hint shown when toggle is ON -->
+    <div class="status-box" id="statusBox">
+      <div class="status-idle" id="statusIdle">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 8v4l3 3"/>
+        </svg>
+        <span id="statusText">Toggle on to start detecting</span>
+      </div>
+    </div>
+
+    <!-- Live result flash -->
+    <div class="result-flash hidden" id="resultFlash">
+      <span class="flash-dot" id="flashDot"></span>
+      <span id="flashText">—</span>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
